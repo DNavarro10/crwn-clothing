@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import Homepage from './Homepage.componen.js/homepage.component'
-
+import Homepage from './Pages/Homepage.componen/homepage.component'
+import MenuItem from './componets/menu-item/menu-item.component'
 function App() {
   return (
-    <Homepage></Homepage>
+    <Homepage>
+      <MenuItem></MenuItem>
+    </Homepage>
    
   );
 }
